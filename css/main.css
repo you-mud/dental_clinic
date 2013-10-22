@@ -25,6 +25,12 @@ html, body{
 	width:719px;
 	margin-right:2px;
 }
+#footer{
+    clear:both;
+    height:350px;
+    width:952px;
+    background-color:#04390f;
+}
 /*--ヘッダー画像関係--*/
 .h-top{
 	width:952px;
@@ -75,10 +81,20 @@ html, body{
 	clear:left;
 }
 .side_banner_2{
-	clear:left;
+    margin-top:12px;
+}
+.side_banner_3{
+    margin-top:40px;
+}
+.side_banner_4{
+    margin-top:20px;
+}
+.side_banner_5{
+    margin-top:130px;
 }
 .side_banner_menu_1{
 	clear:left;
+    margin-top:15px;
 }
 /*---リンク----*/
 a {
@@ -94,16 +110,27 @@ hr{
     margin: 0 6 0 6;
 }
 .side_menu{
-	margin-top:7px;
+	margin-top:17px;
 	margin-bottom:20px;
 }
 .side_menu_text{
 	margin-left:20px;
-	font-size:14px;
-	line-height:9px;
+	font-size:15px;
+	line-height:12px;
 }
-
-
+.side_histry_text{
+    text-align:center;
+    color:#423215;
+    font-size:18px;
+}
+.side_contact_text{
+    font-size:8px;
+    color:#423215;
+}
+.side_contact_time{
+    font-size:11px;
+    color:#423215;
+}
 
 /*----ﾒｲﾝｴﾘｱ-----*/
 #field{
@@ -146,7 +173,33 @@ tr{
 .main_con_img_2{
 	float:right;
 }
+/*--スクロールバー--*/
+.scroll_bar_1{
+    height:250px;
+    width:353px;
+    overflow:scroll;
+    border:1px dotted;
+    float:left;
+}
+.scroll_bar_2{
+    height:250px;
+    width:353px;
+    overflow:scroll;
+    border:1px dotted;
+    float:right;
+}
+/*-----地図-----*/
 
+.main_con_text{
+    color:#543126;
+    font-size:12px;
+    float:left;
+    margin-top:20px;
+}
+.main_con_under_img{
+    float:right;
+    margin-top:20px;
+}
 
 /*--ﾃｷｽﾄ関係--*/
 .header_text_area{
@@ -156,4 +209,20 @@ tr{
 }
 .header_text{
 	margin-left:200px;
+}
+/*----フッター-----*/
+li{
+    list-style-type:none;
+}
+.footer_menu_title{
+    font-size:19px;
+    color:#ffffff;
+}
+.footer_menu_text{
+    color:#adadad;
+    font-size:12px;
+    margin-left:20px;
+}
+.footer_menu_1{
+    border-left:1px dotted white;
 }
