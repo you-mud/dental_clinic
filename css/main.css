@@ -1,0 +1,159 @@
+@CHARSET "UTF-8";
+
+
+/*--通常レイアウト--*/
+html, body{
+	margin:0;
+	padding:0;
+	height:100%;
+	width:100%;
+}
+#contents{
+	margin:auto 0;
+}
+#content{
+	margin:0 auto;
+	width:952px;
+}
+#header{
+}
+#side{
+	float:left;
+}
+#field{
+	float:right;
+	width:719px;
+	margin-right:2px;
+}
+/*--ヘッダー画像関係--*/
+.h-top{
+	width:952px;
+	margin-top:20px;
+}
+.h-menu{
+	clear:left;
+}
+.h-page{
+}
+.h-pic1 {
+	float: left;
+
+}
+.h-pic1ontainer {
+	overflow: hidden;
+}
+
+/* clearfix */
+.h-pic1Container:before,
+.h-pic1Container:after {
+    content: "";
+    display: table;
+}
+
+.h-pic1Container:after {
+    clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.h-pic1Container {
+    zoom: 1;
+}
+.h-top-pic1{
+	float:left;
+}
+.h-top-pic2{
+	float:right;
+}
+.h-top-flag{
+	float:right;
+}
+
+
+/*--ｻｲﾄﾞﾊﾞﾅｰ関連--*/
+
+.side_banner_1{
+	clear:left;
+}
+.side_banner_2{
+	clear:left;
+}
+.side_banner_menu_1{
+	clear:left;
+}
+/*---リンク----*/
+a {
+	text-decoration: none;
+	color:#2e291f;
+}
+/*--ｻｲﾄﾞﾃｷｽﾄ---*/
+hr{
+    border:none;
+    border-top:dashed 1px #5c5c5c;
+    height:1px;
+    color:#FFFFFF;
+    margin: 0 6 0 6;
+}
+.side_menu{
+	margin-top:7px;
+	margin-bottom:20px;
+}
+.side_menu_text{
+	margin-left:20px;
+	font-size:14px;
+	line-height:9px;
+}
+
+
+
+/*----ﾒｲﾝｴﾘｱ-----*/
+#field{
+}
+div.main_con{
+
+}
+div.main_con ul {
+}
+
+div.main_con ul li{
+    display:inline-block;
+    /display:inline;/*IE7*/
+    /zoom:1;/*IE7*/
+    background:url(blt-list.gif) no-repeat left top;
+    background-position:0 0.2em;
+    zoom:1;
+}
+/*----ﾒｲﾝﾃｰﾌﾞﾙ----*/
+table{
+}
+td{
+	height:270px;
+	width:239px;
+}
+tr{
+	width:731px;
+	float:right;
+}
+.main_con{
+	margin-top:0px;
+}
+.main_con_text{
+	color:#423215;
+	font-size:13px;
+}
+.main_con_img_1{
+	float:left;
+}
+.main_con_img_2{
+	float:right;
+}
+
+
+/*--ﾃｷｽﾄ関係--*/
+.header_text_area{
+	height:100%;
+	line-height:19px;
+	background-color:#006022;
+}
+.header_text{
+	margin-left:200px;
+}
